@@ -5,7 +5,7 @@ const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/service")
+    fetch("https://volunteer-network-server-st9g.onrender.com/service")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -14,14 +14,11 @@ const Services = () => {
     <div>
       <h2 className="text-center">Services</h2>
       <div className="container">
-      <div className="row row-cols-1 row-cols-md-4 g-5 my-5">
-        {services.map((service) => (
-          <Service 
-          key={service._id} 
-          service={service}
-          ></Service>
-        ))}
-      </div>
+        <div className="row row-cols-1 row-cols-md-4 g-5 my-5">
+          {services.map((service) => (
+            <Service key={service._id} service={service}></Service>
+          ))}
+        </div>
       </div>
     </div>
   );

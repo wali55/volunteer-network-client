@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Volunteer Network Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site [https://volunteer-network-11792.web.app/](https://volunteer-network-11792.web.app/).
+
+Server Site [https://volunteer-network-server-st9g.onrender.com/](https://volunteer-network-server-st9g.onrender.com/).
 
 ## Available Scripts
 

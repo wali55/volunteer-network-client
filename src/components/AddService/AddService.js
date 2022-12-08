@@ -10,7 +10,7 @@ const AddService = () => {
   } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    const url = `http://localhost:5000/service`;
+    const url = `https://volunteer-network-server-st9g.onrender.com/service`;
     fetch(url, {
       method: "POST",
       headers: {
